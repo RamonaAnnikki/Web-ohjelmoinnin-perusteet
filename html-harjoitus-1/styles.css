@@ -1,0 +1,98 @@
+body {
+    background-color: #f17bd9;
+    font-family: Arial;
+    margin: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(5, 5, 5);
+}
+
+p {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #dddddd;
+}
+
+.vasen {
+    float: left;
+    width: 200px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.oikea {
+    float: right;
+    width: 260px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.tyhja {
+    clear: both;
+}
+
+img {
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lomake {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    /* keskittää lomakkeen */
+    padding: 15px;
+    border: 1px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.rivi {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    /* mahdollistaa saman levyisen labelin */
+    width: 120px;
+    /* tässä se “sama aloituskohta” syntyy */
+}
+
+input,
+textarea {
+    width: calc(100% - 130px);
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 16px;
+}
