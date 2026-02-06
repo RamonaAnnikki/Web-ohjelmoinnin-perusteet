@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Minun HTML-sivu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>TERVETULOA!</h1>
+
+        <p>Tämä on minun ensimmäinen HTML-sivuni.</p>
+        <h2>Koulutus</h2>
+
+        <table>
+            <tr>
+                <td>2025–</td>
+                <td>Lapin AMK</td>
+                <td>ICT</td>
+            </tr>
+
+            <tr>
+                <td>2011–2016</td>
+                <td>Lapin AMK</td>
+                <td>Sairaanhoitaja</td>
+            </tr>
+        </table>
+
+        <h2>Minusta</h2>
+
+        <img src="kuva1.jpg" class="vasen">
+
+        <p>
+            Olen ICT-opiskelija ja harjoittelen HTML:n ja CSS:n käyttöä.
+            Tässä osiossa kerron lyhyesti itsestäni ja opiskelustani.
+        </p>
+
+        <div class="tyhja"></div>
+
+        <h2>Perheeni koirat</h2>
+
+        <img src="kuva2.jpg" class="oikea">
+
+        <p>
+            Tässä ovat perheeni koirat. He ovat tärkeä osa arkeani ja tuovat paljon iloa elämään.
+        </p>
+        <div class="tyhja"></div>
+
+        <h2>Ota yhteyttä</h2>
+        <form class="lomake">
+            <div class="rivi">
+                <label for="etunimi">Etunimi</label>
+                <input type="text" id="etunimi" name="etunimi">
+            </div>
+
+            <div class="rivi">
+                <label for="sukunimi">Sukunimi</label>
+                <input type="text" id="sukunimi" name="sukunimi">
+            </div>
+
+            <div class="rivi">
+                <label for="email">Sähköposti</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="rivi">
+                <label for="viesti">Viesti</label>
+                <textarea id="viesti" name="viesti" rows="4"></textarea>
+            </div>
+
+            <div class="rivi">
+                <label></label>
+                <button type="submit">Lähetä</button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
